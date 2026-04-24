@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ECO PM Consulting | Enterprise Program &amp; Project Management</title>
   <meta name="description" content="ECO PM Consulting delivers Fortune 500-caliber program management, digital transformation, and AI-enabled process automation. Veteran-owned. 20+ years of enterprise results." />
+  <!-- Favicon: ECO shield logo -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 110'%3E%3Cdefs%3E%3ClinearGradient id='sg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231a3a6b'/%3E%3Cstop offset='100%25' stop-color='%234a90d9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M50 2 L95 20 L95 55 Q95 85 50 108 Q5 85 5 55 L5 20 Z' fill='url(%23sg)' stroke='%234a90d9' stroke-width='2'/%3E%3Cpath d='M50 8 L89 24 L89 55 Q89 81 50 102 Q11 81 11 55 L11 24 Z' fill='white'/%3E%3Cg stroke-width='3.5' stroke-linecap='round'%3E%3Cline x1='28' y1='80' x2='22' y2='35' stroke='%231a2f55' opacity='0.7'/%3E%3Cpolygon points='22,35 18,45 26,45' fill='%231a2f55' opacity='0.7'/%3E%3Cline x1='37' y1='82' x2='34' y2='28' stroke='%231e3d6e'/%3E%3Cpolygon points='34,28 30,39 38,39' fill='%231e3d6e'/%3E%3Cline x1='50' y1='84' x2='50' y2='22' stroke='%232e6fc4'/%3E%3Cpolygon points='50,22 45,34 55,34' fill='%232e6fc4'/%3E%3Cline x1='63' y1='82' x2='66' y2='28' stroke='%233a82db'/%3E%3Cpolygon points='66,28 62,39 70,39' fill='%233a82db'/%3E%3Cline x1='72' y1='80' x2='78' y2='35' stroke='%234a90d9' opacity='0.7'/%3E%3Cpolygon points='78,35 74,45 82,45' fill='%234a90d9' opacity='0.7'/%3E%3C/g%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -817,7 +819,15 @@
   <!-- ═══ NAV ════════════════════════════════════════════════════ -->
   <nav id="mainNav">
     <div class="nav-logo">
-      <div class="nav-logo-mark">ECO</div>
+      <div style="width:44px;height:44px;flex-shrink:0;">
+        <img
+          src="eco-logo.png"
+          alt="ECO PM Consulting"
+          style="width:44px;height:44px;object-fit:contain;"
+          onerror="this.style.display='none';document.getElementById('nav-logo-fallback').style.display='flex';"
+        />
+        <div id="nav-logo-fallback" style="display:none;width:44px;height:44px;border:1.5px solid var(--gold);align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--gold);">ECO</div>
+      </div>
       <div class="nav-logo-text"><span>ECO</span> PM Consulting</div>
     </div>
     <ul class="nav-links">
@@ -879,8 +889,8 @@
         <div class="hero-stat-label">Years Enterprise Experience</div>
       </div>
       <div class="hero-stat">
-        <div class="hero-stat-number">6</div>
-        <div class="hero-stat-label">Fortune 500 &amp; Gov. Clients</div>
+        <div class="hero-stat-number">7</div>
+        <div class="hero-stat-label">Enterprise &amp; Gov. Clients</div>
       </div>
       <div class="hero-stat">
         <div class="hero-stat-number">$3.2B</div>
@@ -972,6 +982,21 @@
             <span class="service-tag">PM Training</span>
             <span class="service-tag">Applied AI</span>
             <span class="service-tag">Enablement</span>
+          </div>
+        </div>
+
+        <div class="service-card fade-up fade-up-delay-2">
+          <div class="service-number">06</div>
+          <div class="service-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h3>M&amp;A Integration Planning &amp; Execution</h3>
+          <p>End-to-end program leadership across mergers, acquisitions, and divestitures — from pre-close integration planning through post-merger execution. We align people, systems, and processes under strict regulatory and operational controls so acquisitions close on time and operations never skip a beat.</p>
+          <div class="service-tags">
+            <span class="service-tag">Integration Roadmap</span>
+            <span class="service-tag">Due Diligence</span>
+            <span class="service-tag">Risk Mitigation</span>
+            <span class="service-tag">Day-1 Readiness</span>
           </div>
         </div>
 
@@ -1089,6 +1114,19 @@
           </ul>
         </div>
 
+        <div class="client-card fade-up">
+          <div class="client-header">
+            <div class="client-name">CareNet Health</div>
+            <div class="client-sector">Healthcare / M&amp;A</div>
+          </div>
+          <p>Led IT integration program management during the Stericycle acquisition — aligning infrastructure, databases, and applications under strict regulatory controls with zero operational disruption.</p>
+          <ul class="client-outcomes">
+            <li>Directed full IT integration roadmap across acquired entity infrastructure</li>
+            <li>Delivered risk mitigation plan and executive-level reporting throughout transition</li>
+            <li>Maintained uninterrupted operations under regulatory compliance constraints</li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </section>
@@ -1136,40 +1174,68 @@
         <div class="fade-up fade-up-delay-1">
           <div class="credentials-panel">
             <div class="credential-item">
-              <div class="cred-badge">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <div class="cred-badge" style="overflow:hidden;border-color:transparent;padding:2px;">
+                <img src="badge-pmp.png" alt="PMP Badge" style="width:44px;height:44px;object-fit:contain;"
+                  onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                <div style="display:none;width:44px;height:44px;border:1.5px solid var(--gold);align-items:center;justify-content:center;color:var(--gold);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </div>
               </div>
               <div class="cred-body">
                 <h3>Project Management Professional (PMP)</h3>
-                <p>Project Management Institute — Industry gold standard</p>
+                <p>Project Management Institute — Industry gold standard for enterprise program delivery</p>
               </div>
             </div>
             <div class="credential-item">
-              <div class="cred-badge">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <div class="cred-badge" style="overflow:hidden;border-color:transparent;padding:2px;">
+                <img src="badge-acp.png" alt="PMI-ACP Badge" style="width:44px;height:44px;object-fit:contain;"
+                  onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                <div style="display:none;width:44px;height:44px;border:1.5px solid var(--gold);align-items:center;justify-content:center;color:var(--gold);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </div>
               </div>
               <div class="cred-body">
                 <h3>PMI Agile Certified Practitioner (PMI-ACP)</h3>
-                <p>Project Management Institute — Agile delivery expertise</p>
+                <p>Project Management Institute — Agile, Scrum, Kanban, and hybrid delivery methodologies</p>
+              </div>
+            </div>
+            <div class="credential-item">
+              <div class="cred-badge" style="overflow:hidden;border-color:transparent;padding:2px;">
+                <img src="badge-ai.png" alt="Gen AI Badge" style="width:44px;height:44px;object-fit:contain;"
+                  onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                <div style="display:none;width:44px;height:44px;border:1.5px solid var(--gold);align-items:center;justify-content:center;color:var(--gold);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                </div>
+              </div>
+              <div class="cred-body">
+                <h3>Practical Application of Generative AI for Project Managers</h3>
+                <p>Applied AI integration within program delivery — automation, reporting, and risk management</p>
               </div>
             </div>
             <div class="credential-item">
               <div class="cred-badge">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
               </div>
               <div class="cred-body">
-                <h3>Practical Application of Generative AI</h3>
-                <p>For Project Managers — Applied AI in program delivery</p>
+                <h3>Professor of Project Management</h3>
+                <p>University of Texas at San Antonio — Applied PM instruction for working professionals</p>
               </div>
             </div>
           </div>
-          <div class="veteran-callout">
-            <div class="veteran-callout-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
-            </div>
+          <div class="veteran-callout" style="align-items:center;gap:2rem;">
+            <img
+              src="veteran-badge.png"
+              alt="Veteran-Owned Business — Verified by the Texas Veterans Commission"
+              style="width:110px;height:110px;object-fit:contain;flex-shrink:0;"
+              onerror="this.style.display='none';this.nextElementSibling.querySelector('.fallback-icon').style.display='flex';"
+            />
             <div>
+              <div class="fallback-icon" style="display:none;width:48px;height:48px;border:1.5px solid var(--gold);align-items:center;justify-content:center;margin-bottom:0.8rem;color:var(--gold);">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+              </div>
               <h3>Veteran-Owned Business</h3>
-              <p>U.S. Air Force Veteran · 20 Years Service · Texas Veterans Commission Certification Pending</p>
+              <p>U.S. Air Force Veteran · 20 Years Service</p>
+              <p style="margin-top:0.3rem;">Verified by the Texas Veterans Commission</p>
             </div>
           </div>
         </div>
@@ -1240,6 +1306,7 @@
                 <option>Digital Transformation</option>
                 <option>AI-Enabled Automation</option>
                 <option>Training &amp; Enablement</option>
+                <option>M&amp;A Integration Program Management</option>
                 <option>Multiple / Not sure yet</option>
               </select>
             </div>
@@ -1263,7 +1330,9 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-logo">
-        <div class="nav-logo-mark" style="width:32px;height:32px;font-size:0.9rem;">ECO</div>
+        <div style="width:36px;height:36px;flex-shrink:0;">
+          <img src="eco-logo.png" alt="ECO PM Consulting" style="width:36px;height:36px;object-fit:contain;" onerror="this.style.display='none';" />
+        </div>
         <div style="font-size:0.8rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--gray-400);">
           <span style="color:var(--gold)">ECO</span> PM Consulting
         </div>
