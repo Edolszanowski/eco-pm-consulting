@@ -111,9 +111,9 @@
       letter-spacing: 0.05em;
     }
     .nav-logo-text {
-      font-size: 0.88rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--white);
       line-height: 1.3;
@@ -819,15 +819,16 @@
   <!-- ═══ NAV ════════════════════════════════════════════════════ -->
   <nav id="mainNav">
     <div class="nav-logo">
-      <div style="height:88px;flex-shrink:0;display:flex;align-items:center;">
+      <div style="width:64px;height:64px;flex-shrink:0;overflow:hidden;border-radius:4px;">
         <img
           src="eco-logo.png"
           alt="ECO PM Consulting"
-          style="height:88px;width:auto;object-fit:contain;display:block;"
+          style="width:64px;height:auto;object-fit:cover;object-position:top center;display:block;mix-blend-mode:lighten;"
           onerror="this.style.display='none';document.getElementById('nav-logo-fallback').style.display='flex';"
         />
-        <div id="nav-logo-fallback" style="display:none;height:88px;width:88px;border:1.5px solid var(--gold);align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--gold);">ECO</div>
+        <div id="nav-logo-fallback" style="display:none;width:64px;height:64px;border:1.5px solid var(--gold);align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--gold);">ECO</div>
       </div>
+      <div class="nav-logo-text"><span>ECO</span> PM Consulting</div>
     </div>
     <ul class="nav-links">
       <li><a href="#services">Services</a></li>
