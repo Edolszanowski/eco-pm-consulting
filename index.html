@@ -819,11 +819,11 @@
   <!-- ═══ NAV ════════════════════════════════════════════════════ -->
   <nav id="mainNav">
     <div class="nav-logo">
-      <div style="height:58px;flex-shrink:0;display:flex;align-items:center;">
+      <div style="flex-shrink:0;display:flex;align-items:center;overflow:visible;padding:4px 0;">
         <img
           src="eco-logo.png"
           alt="ECO PM Consulting"
-          style="height:58px;width:auto;object-fit:contain;display:block;"
+          style="height:62px;width:auto;object-fit:contain;display:block;"
           onerror="this.style.display='none';document.getElementById('nav-logo-fallback').style.display='flex';"
         />
         <div id="nav-logo-fallback" style="display:none;height:58px;width:58px;border:1.5px solid var(--gold);align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--gold);">ECO</div>
@@ -1329,8 +1329,10 @@
   <!-- ═══ FOOTER ══════════════════════════════════════════════════ -->
   <footer>
     <div class="footer-inner">
-      <div class="footer-logo">
-        <img src="eco-logo-full.png" alt="ECO Consulting LLC" style="height:90px;width:auto;object-fit:contain;display:block;" onerror="this.style.display='none';" />
+      <div class="footer-logo" style="flex-direction:column;align-items:flex-start;gap:6px;">
+        <img src="eco-logo.png" alt="ECO Consulting LLC" style="height:56px;width:auto;object-fit:contain;display:block;" onerror="this.style.display='none';" />
+        <div style="font-family:'Playfair Display',serif;color:#ffffff;font-size:0.9rem;font-weight:700;letter-spacing:0.05em;line-height:1.2;">ECO Consulting, LLC</div>
+        <div style="color:var(--gold);font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;opacity:0.9;">Strategy &amp; Profit Solutions</div>
       </div>
       <p class="footer-copy">© 2025 <span>ECO PM Consulting</span>. All rights reserved. Veteran-Owned Business.</p>
       <ul class="footer-links">
